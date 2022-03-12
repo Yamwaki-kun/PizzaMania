@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap-grid.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/Pizza1.png">
+    <title>Pizza Mania</title>
+</head>
+
+<body>
+    <header>
+
+        <h1>Pizza Mania</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <article>
+                    <section>
+                        <div class="row">
+                            <div class="col">
+                                <p class="titulo">Cardápio</p>
+                                <p class="produto">Confira o nosso Cardápio e escolha a sua pizza tradicional italiana
+                                    preferida!</p>
+                            </div>
+                            <div class="col">
+                                <div class="trocar">
+                                    <div class="botaotrocar">
+                                        <button class="tab-button active" style="border-top-left-radius: 10px;"
+                                            data-id="pagina1">Pagina 1</button>
+                                        <button class="tab-button" data-id="pagina2">Pagina 2</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div id="pagina1" class="content active">
+
+
+                        <section>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="img/Pizza1.png" alt="Imagen pizza de marguerita" class="imgpizza">
+                                </div>
+                                <div class="col">
+                                    <p class="titulo">Marguerita</p>
+                                    <p class="produto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                        vitae
+                                        lacinia
+                                        mi. Curabitur convallis vulputate est, sit amet facilisis libero egestas ac. Nam
+                                        dui
+                                        nunc,
+                                        venenatis sed aliquam at, lacinia at leo. Curabitur ac eleifend turpis.</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="img/Pizza2.png" alt="Imagen pizza de Camarão" class="imgpizza">
+                                </div>
+                                <div class="col">
+                                    <p class="titulo">Camarão</p>
+                                    <p class="produto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                        vitae
+                                        lacinia
+                                        mi. Curabitur convallis vulputate est, sit amet facilisis libero egestas ac. Nam
+                                        dui
+                                        nunc,
+                                        venenatis sed aliquam at, lacinia at leo. Curabitur ac eleifend turpis.</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="img/Pizza3.png" alt="Imagen pizza de Rucula com tomate seco"
+                                        class="imgpizza">
+                                </div>
+                                <div class="col">
+                                    <p class="titulo">rucula com tomate seco</p>
+                                    <p class="produto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                        vitae
+                                        lacinia
+                                        mi. Curabitur convallis vulputate est, sit amet facilisis libero egestas ac. Nam
+                                        dui
+                                        nunc,
+                                        venenatis sed aliquam at, lacinia at leo. Curabitur ac eleifend turpis.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div id="pagina2" class="content">
+
+
+                        <section>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="img/Pizza4.png" alt="Imagen pizza de 5 queijos" class="imgpizza">
+                                </div>
+                                <div class="col">
+                                    <p class="titulo">5 Queijos</p>
+                                    <p class="produto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                        vitae
+                                        lacinia
+                                        mi. Curabitur convallis vulputate est, sit amet facilisis libero egestas ac. Nam
+                                        dui
+                                        nunc,
+                                        venenatis sed aliquam at, lacinia at leo. Curabitur ac eleifend turpis.</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="img/Pizza5.png" alt="Imagen pizza de tomate pesto" class="imgpizza">
+                                </div>
+                                <div class="col">
+                                    <p class="titulo">tomate pesto</p>
+                                    <p class="produto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                        vitae
+                                        lacinia
+                                        mi. Curabitur convallis vulputate est, sit amet facilisis libero egestas ac. Nam
+                                        dui
+                                        nunc,
+                                        venenatis sed aliquam at, lacinia at leo. Curabitur ac eleifend turpis.</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="img/Pizza6.png" alt="Imagen pizza de Peperoni" class="imgpizza">
+                                </div>
+                                <div class="col">
+                                    <p class="titulo">Peperoni</p>
+                                    <p class="produto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                                        vitae
+                                        lacinia
+                                        mi. Curabitur convallis vulputate est, sit amet facilisis libero egestas ac. Nam
+                                        dui
+                                        nunc,
+                                        venenatis sed aliquam at, lacinia at leo. Curabitur ac eleifend turpis.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+            </div>
+            <div class="col-6">
+                <aside>
+                    <form class="form" onsubmit="return false">
+                        <h2>Peça já</h2>
+                        <p type="Nome:" class="formp"><input placeholder="Escreva seu nome aqui" class="inp" id="fnome"></input>
+                        </p>
+                        <p type="Celular:" class="formp" ><input placeholder="Informe o seu número de celular"
+                                class="inp" onkeypress="validate(event)" id="fcelular"></input></p>
+
+                        <p type="Cep" class="formp"><input placeholder="Digite o seu cep" class="inp" onkeypress="validate(event)" onfocusout="pesquisacep()" id="pescep">
+                        </input></p>
+
+                        <p type="Rua" class="formp"><input placeholder="Rua" class="inp" disabled id="rua"></input></p>
+                        
+                        <p type="Numero:" class="formp"><input placeholder="Digite o número da casa"
+                                class="inp" onkeypress="validate(event)" id="fnumero"></input></p>
+                        <p type="Sabores:" class="formp"><select id="sabores" name="listadesabores" class="formselect">
+                                <option value="1">marguerita</option>
+                                <option value="2">camarao</option>
+                                <option value="3">rucula com tomate</option>
+                                <option value="4">5 queijos</option>
+                                <option value="5">tomate pesto</option>
+                                <option value="6">Peperoni</option>
+                            </select></p>
+                            <p type="Forma de pagamento:" class="formp"><select id="formap" name="listapag" class="formselect">
+                                <option value="1">Cartãdo de crédito/Débito</option>
+                                <option value="2">Dinheiro</option>
+                            </select></p>
+
+                        <button class="fbutton" onclick="pedir()">Pedir</button>
+                        <div class="fdiv">
+                            <span class="fa fa-phone"></span>11 2011-1111
+                            <span class="fa fa-envelope-o"></span> contato@pizzamania.com
+                        </div>
+                    </form>
+                </aside>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Pizza mania</p>
+        <p>© 2021 Copyright</p>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+
+</html>
